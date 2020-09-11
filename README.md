@@ -26,12 +26,12 @@
    *  ![](./images/Q4.PNG)
 
 ## 5. What are the key components of Angular?
-   * Angular has the below key components,
-        i.	Component: These are the basic building blocks of angular application to control HTML views.
-        ii.	Modules: An angular module is set of angular basic building blocks like component, directives, services etc. An   application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
-        iii.	Templates: This represent the views of an Angular application.
-        iv.	Services: It is used to create components which can be shared across the entire application.
-        v.	Metadata: This can be used to add more data to an Angular class.
+   * Angular has the below key components:
+      * __`Component`__: These are the basic building blocks of angular application to control HTML views.
+      * __`Modules`__: An angular module is set of angular basic building blocks like component, directives, services etc. An   application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
+      * __`Templates`__: This represent the views of an Angular application.
+      * __`Services`__: It is used to create components which can be shared across the entire application.
+      * __`Metadata`__: This can be used to add more data to an Angular class.
 ## 6. What are directives?
    * Directives add behavior to an existing DOM element or an existing component instance.
         ``` javascript
