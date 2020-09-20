@@ -34,7 +34,7 @@
       * __`Metadata`__: This can be used to add more data to an Angular class.
 ## 6. What are directives?
    * Directives add behavior to an existing DOM element or an existing component instance.
-        ``` javascript
+      ``` javascript
          import { Directive, ElementRef, Input } from '@angular/core';
 
            @Directive({ selector: '[myHighlight]' })
@@ -67,7 +67,7 @@
       }
      ``` 
 ## 8.	What are the differences between Component and Directive?
-   * In a short note, A component(@component) is a directive-with-a-template.
+   * In a short note, A component`(@component)` is a directive-with-a-template.
    * Some of the major differences are mentioned in a tabular form
    *  ![](./images/Q8.PNG)
 
@@ -103,7 +103,7 @@
       }
     ```   
 ## 10.	What is a module?
-   * Modules are logical boundaries in your application and the application is divided into separate modules to separate the functionality of your application. Lets take an example of app.module.ts root module declared with @NgModule decorator as below:
+   * Modules are logical boundaries in your application and the application is divided into separate modules to separate the functionality of your application. Lets take an example of app.module.ts root module declared with `@NgModule` decorator as below:
     ``` javascript
       import { NgModule }      from '@angular/core';
       import { BrowserModule } from '@angular/platform-browser';
