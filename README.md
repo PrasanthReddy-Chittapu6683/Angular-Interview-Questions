@@ -35,7 +35,7 @@
 ## 6. What are directives?
    * Directives add behavior to an existing DOM element or an existing component instance.
     ``` javascript
-         import { Directive, ElementRef, Input } from '@angular/core';
+           import { Directive, ElementRef, Input } from '@angular/core';
 
            @Directive({ selector: '[myHighlight]' })
            export class HighlightDirective {
