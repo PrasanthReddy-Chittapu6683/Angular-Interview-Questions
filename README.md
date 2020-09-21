@@ -34,7 +34,7 @@
       * __`Metadata`__: This can be used to add more data to an Angular class.
 ## 6. What are directives?
    * Directives add behavior to an existing DOM element or an existing component instance.
-    ``` javascript
+      ``` javascript
            import { Directive, ElementRef, Input } from '@angular/core';
 
            @Directive({ selector: '[myHighlight]' })
@@ -43,11 +43,11 @@
                  el.nativeElement.style.backgroundColor = 'yellow';
                }
            }
-    ```
+      ```
    * Now this directive extends HTML element behavior with a yellow background as below
-    ``` javascript
+      ``` javascript
            <p myHighlight>Highlight me!</p>
-    ```
+      ```
 
 ## 7.	What are components?
    * Components are the most basic UI building block of an Angular app which formed a tree of Angular components. These components are subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template. Let's see a simple example of Angular component
