@@ -329,7 +329,7 @@ Life cycle hook :
 
 Let's take a time observable which continuously updates the view for every 2 seconds with the current time.
 
-    ``` javascript
+   ``` javascript
      @Component({
         selector: 'async-observable-pipe',
         template: `<div><code>observable|async</code>:
@@ -340,5 +340,5 @@ Let's take a time observable which continuously updates the view for every 2 sec
           setInterval(() => observer.next(new Date().toString()), 2000)
         );
       }
-    ```
+   ```
 ## 20.  What is the option to choose between inline and external template file?
